@@ -92,6 +92,9 @@ h1{
   transform: translateX(-800px);
   animation: fadeInUp 2s ease-out forwards;
 }
+.redes{
+    height: 15em;
+}
 
 
 @keyframes fadeInUp {
