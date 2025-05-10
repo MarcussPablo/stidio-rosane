@@ -106,5 +106,11 @@ h1{
         overflow-x: hidden;
         max-width: 100%;
     }
+    .salao{
+    min-height: 50vh;
+    background-color: #f34389af;
+    position: relative;
+    min-width: 100%;
+}
 }
 
