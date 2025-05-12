@@ -2,7 +2,7 @@
 
 body {
     font-family: "Josefin Sans", sans-serif;
-    background: radial-gradient(circle, rgba(209, 44, 110, .8) 0%, #000000 100%);
+    /*-background: radial-gradient(circle, rgba(209, 44, 110, .8) 0%, #000000 100%);*/
     position: relative;
     color: #d12c6e;
     height: 100%;
@@ -46,9 +46,9 @@ h1{
 
 
 .carousel-item img{
-    height: 15em;
+    height: 18em;
     object-fit: cover;
-    width: 15em;
+    width: 18em;
     
 }
 
@@ -61,16 +61,20 @@ h1{
     background-color: #000000;
 }
 .rosa{
-    border: 2px solid #d12c6e;
+    border: 1px solid rgb(201, 201, 201);
     border-radius: 1em;
+    color: #212529;
+    
+    font-size: large;
 }
 .preto{
-     border: 2px solid #000000;
-    border-radius: 1em;   
+    
+    border-radius: 1em;
+    font-size: large;   
 }
 .salao{
     min-height: 100vh;
-    background-color: #f34389af;
+    background-color: #221e20c4;
     position: relative;
     min-width: 100%;
 }
@@ -95,6 +99,26 @@ h1{
 .redes{
     height: 15em;
 }
+.diva img{
+   
+    border-left: 4px solid #d12c6e;
+    border-right: 4px solid #d12c6e;
+   
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    border-bottom-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+   
+
+    
+}
+.diva{
+     margin-top: 1em;
+}
+
+.exp{
+    height: 20em;
+}
 
 
 @keyframes fadeInUp {
@@ -111,7 +135,7 @@ h1{
     }
     .salao{
     min-height: 50vh;
-    background-color: #f34389af;
+    
     position: relative;
     min-width: 100%;
 }
